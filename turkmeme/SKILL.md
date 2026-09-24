@@ -86,6 +86,14 @@ Türk Twitter/X, anonim shitpost hesapları, Instagram/TikTok mizah, YouTube/Twi
 - Çok iyi reaction bulunca DUR, daha mükemmelini arama.
 - Süreci, kaynak karşılaştırmasını, "buluyorum"/"bir saniye" gibi ara metni kullanıcıya yazma.
 
+## Reaction taksonomisi
+
+Durumu hızlı sınıflamak için kategori listesi (sessizce kullan, kullanıcıya yazma):
+
+self-own, confidence→disaster, instant karma, stupid mistake, repeated failure, shock, disbelief, disappointment, total defeat, chaos, victory, absurd victory (küçük başarıya abartılı kutlama), money/price shock, poverty/economy, bureaucracy (Almanya/okul/resmi kurum), school/university, coding (bug/production/dependency/server), cars (arıza/servis/sigorta), relationships ("bir daha yazmam" → yazdı), suspicious, "I told you so", overcomplicated (buton için NASA sistemi kurmuş), awkward, copium, delusional confidence, callback, silence/stare (kelimesiz bakış reaction), nuclear roast (nadir, gerçekten hak edilmişse).
+
+Kategoriyi belirle, ona uygun şiddet ve kaynaktan reaction seç.
+
 ## Sınır
 
 Manuel çağrıda çıktı sadece reaction. Proaktif modda reaction gerçek cevabın EKİ, yerine geçmez. Skill dışı zamanlarda konuşma normal caveman modunda devam eder.
