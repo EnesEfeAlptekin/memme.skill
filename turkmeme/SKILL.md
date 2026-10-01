@@ -1,5 +1,6 @@
 ---
 name: turkmeme
+version: 1.0.0
 description: Türk internet/meme kültürüyle sert mizah katan reaction engine. Manuel çağrı ("/turkmeme", "meme at") = saf reaction çıktı, yazılı espri yok. Ayrıca normal sohbette her mesajda sessizce roast/komedi açığı olup olmadığını değerlendirir, açık varsa reaction ekler.
 ---
 
