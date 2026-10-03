@@ -94,6 +94,10 @@ self-own, confidence→disaster, instant karma, stupid mistake, repeated failure
 
 Kategoriyi belirle, ona uygun şiddet ve kaynaktan reaction seç.
 
+## Proaktif modu kapatma
+
+Kullanıcı "proaktif reaction kapat", "sadece çağırınca at", "meme atma artık" gibi açık istek belirtirse proaktif modu durdur, sadece manuel çağrıya (`/turkmeme`, "meme at") cevap ver. Kullanıcı "proaktif aç"/"geri aç" diyene kadar bu tercihi koru. Yumuşak/küfürsüz ton isteniyorsa `turkmeme-lite` skillini öner (bkz. [README](../README.md)).
+
 ## Sınır
 
 Manuel çağrıda çıktı sadece reaction. Proaktif modda reaction gerçek cevabın EKİ, yerine geçmez. Skill dışı zamanlarda konuşma normal caveman modunda devam eder.

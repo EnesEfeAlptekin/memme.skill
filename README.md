@@ -4,10 +4,12 @@ Türk internet/meme kültürüyle sert mizah katan Claude Code skill'i. Manuel �
 
 ## Kurulum
 
-Script ile:
+Script ile (varsayılan: turkmeme):
 
 ```bash
-./install.sh
+./install.sh            # sadece turkmeme
+./install.sh turkmeme-lite
+./install.sh all         # ikisi de
 ```
 
 Manuel:
@@ -16,9 +18,14 @@ Manuel:
 cp -r turkmeme ~/.claude/skills/turkmeme
 ```
 
+## Varyantlar
+
+- **turkmeme**: sert Türk mizahı, küfür/kara mizah serbest. Varsayılan.
+- **turkmeme-lite**: aynı mekanik, küfürsüz/iş ortamı uyumlu ton. Bkz. [turkmeme-lite/SKILL.md](turkmeme-lite/SKILL.md).
+
 ## Kullanım
 
-Claude Code içinde: `/turkmeme` veya "meme at", "komik cevap ver" gibi açık istekle çağır.
+Claude Code içinde: `/turkmeme` veya "meme at", "komik cevap ver" gibi açık istekle çağır. Lite versiyon için `/turkmeme-lite` veya "hafif meme at".
 
 ### Örnekler
 
