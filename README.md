@@ -38,6 +38,12 @@ Claude Code içinde: `/turkmeme` veya "meme at", "komik cevap ver" gibi açık i
 > Cevap: düz teknik cevap, reaction yok (komedi açığı yok)
 
 Detaylı davranış tanımı: [turkmeme/SKILL.md](turkmeme/SKILL.md)
+Kaynak havuzları: [turkmeme/sources.md](turkmeme/sources.md)
+
+## Katkı
+
+Yeni kaynak/kural önerme süreci: [CONTRIBUTING.md](CONTRIBUTING.md)
+Sürüm geçmişi: [CHANGELOG.md](CHANGELOG.md)
 
 ## Lisans
 

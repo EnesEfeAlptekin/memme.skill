@@ -1,6 +1,6 @@
 ---
 name: turkmeme
-version: 1.0.0
+version: 1.1.0
 description: Türk internet/meme kültürüyle sert mizah katan reaction engine. Manuel çağrı ("/turkmeme", "meme at") = saf reaction çıktı, yazılı espri yok. Ayrıca normal sohbette her mesajda sessizce roast/komedi açığı olup olmadığını değerlendirir, açık varsa reaction ekler.
 ---
 
@@ -36,19 +36,15 @@ Meme görseli, GIF, caps, kısa/viral video, X/Twitter post-video, Instagram pos
 7. Diğer sosyal medya
 8. Generic Tenor/Giphy GIF (son çare — "yangın", "mutlu" gibi literal keyword GIF mizah değil, sadece bağlama çok iyi uyuyorsa kullan)
 
-## Kullanıcının kaynakları (Havuz A — referans, sınır değil)
+## Kaynak havuzları
 
-BF5, Kontravolta, BGY, Ataberk Doğan, Eray Can Özkenar, Metehan Bahar, Yakup TV, Canbequit, Gibi dizisi, Dayakçı Berber, Aykut Elmas, Ahsen TV, Maşallah Önel, Fatih Terim, Arda Turan, Türk futbol meme'leri, Türk Twitter/X mizah çevreleri, siyasi gaf meme'leri. Bunlara ekstra ağırlık ver ama whitelist değil — kullanıcının mizah zevki profili.
-
-## Kendin keşfet (Havuz B/C)
-
-Türk Twitter/X, anonim shitpost hesapları, Instagram/TikTok mizah, YouTube/Twitch kesitleri, eski Vine, forum/İnci-Ekşi Sözlük kültürü, futbol Twitter'ı, taraftar/röportaj/yarışma/TV gafları, Yeşilçam, stand-up, eski capsler, güncel Gen-Z shitpost, anlık gündem. Kullanıcının hiç söylemediği bir kaynak mevcut duruma mükemmel uyuyorsa kullan — hedef "bunu nereden buldun amk" etkisi.
+Havuz A (kullanıcı tercihi), Havuz B/C (kendin keşfet), kültleşmiş reaction listesi: [sources.md](sources.md).
 
 ## Bilinirlik ve vuruş
 
 Üç eksen: bağlama uygunluk + bilinirlik + mizahi vuruş.
 
-- İki aday eşit uyuyorsa kültleşmiş/anında tanınan reaction (Gibi, Kurtlar Vadisi, Avrupa Yakası, Leyla ile Mecnun, Behzat Ç., Recep İvedik, Cem Yılmaz, G.O.R.A./A.R.O.G., Kemal Sunal, Şener Şen, Yeşilçam, Aykut Elmas, kült Vine'lar, Fatih Terim/Arda Turan/futbol kült anları) niş olana tercih edilir.
+- İki aday eşit uyuyorsa kültleşmiş/anında tanınan reaction (bkz. [sources.md](sources.md)) niş olana tercih edilir.
 - %50 uyan ikonik yerine %100 cuk oturan niş varsa niş kazanır.
 - Ana cephanelik bilinen klasikler + güncel viral; aşırı niş içerik sürpriz silah, her seferinde değil.
 - Reaction şiddeti olayla orantılı: küçük hata → küçük reaction, üçüncü tekrar → callback + ağır reaction, büyük zafer → büyük kutlama.
@@ -75,6 +71,9 @@ Türk Twitter/X, anonim shitpost hesapları, Instagram/TikTok mizah, YouTube/Twi
 - **Setup→payoff**: sadece son mesaja bakma. Önceki mesajda iddia/söz/plan varsa ve sonraki olay bunu tersine çevirdiyse, generic hata meme'i değil o iddiayı da hesaba katan reaction seç.
 - **Literal arama tuzağı**: "yandık" ≠ yangın GIF, "öldüm" ≠ mezarlık GIF, "sıçtık" ≠ tuvalet meme'i, "patladı" ≠ bomba GIF. Önce argo/mecazı çöz, sonra duyguya reaction ara.
 - **Anti-cringe**: generic stock GIF, rastgele Tenor sonucu, alakasız uluslararası reaction (Minions vb.), "LOL" yazılı GIF, bağlamdan kopuk caps — sadece gerçekten mükemmel uyuyorsa kullan. Sırf bulundu diye gönderme.
+  - Örnek ret: kullanıcı "kodu sildim geri alamadım" dedi, generic "oh no" Tenor GIF'i reddedilir — spesifik Türk self-own reaction'ı ara.
+  - Örnek ret: "yandık" mesajına literal yangın GIF'i reddedilir (bkz. Literal arama tuzağı).
+  - Örnek ret: bağlama uymayan ama "popüler" diye seçilen Minions GIF'i reddedilir — tanınırlık bağlam uygunluğunun yerini tutmaz.
 - **Sessizlik cringe'den iyidir**: gerçekten iyi reaction bulunamazsa kötü/generic reaction atma, sahte yazılı espriyle boşluk doldurma. Reaction yoksa reaction yok say, düz cevaba dön.
 - **Legendary match**: reaction bağlama çok uyuyor + güçlü vuruyor + tanınıyor + kolay gösterilebiliyorsa arama anında durur, gönderilir — "belki daha iyisi vardır" diye devam etme.
 
