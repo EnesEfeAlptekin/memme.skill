@@ -1,5 +1,8 @@
 # memme.skill
 
+[![lint](https://github.com/EnesEfeAlptekin/memme.skill/actions/workflows/lint.yml/badge.svg)](https://github.com/EnesEfeAlptekin/memme.skill/actions/workflows/lint.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Türk internet/meme kültürüyle sert mizah katan Claude Code skill'i. Manuel çağrılır, her mesajda otomatik tetiklenmez — asıl teknik cevabın kalitesini bozmaz.
 
 ## Kurulum
