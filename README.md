@@ -39,6 +39,7 @@ Claude Code içinde: `/turkmeme` veya "meme at", "komik cevap ver" gibi açık i
 
 Detaylı davranış tanımı: [turkmeme/SKILL.md](turkmeme/SKILL.md)
 Kaynak havuzları: [turkmeme/sources.md](turkmeme/sources.md)
+Daha fazla örnek: [examples/transcripts.md](examples/transcripts.md)
 
 ## Katkı
 
