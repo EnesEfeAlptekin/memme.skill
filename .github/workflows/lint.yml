@@ -28,3 +28,10 @@ jobs:
             fi
           done
           echo "All SKILL.md files valid."
+
+  test-install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run install.sh smoke tests
+        run: ./test/install.test.sh
